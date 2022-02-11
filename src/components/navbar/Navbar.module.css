@@ -34,8 +34,10 @@
 
 /* ----- header ------------ */
 
-.headerText {
-    padding-right: 13%;
+@media (max-width: 450px){
+    .headerText{
+        font-size: 12px;
+    }
 }
 
 /* ----- control buttons --------- */
