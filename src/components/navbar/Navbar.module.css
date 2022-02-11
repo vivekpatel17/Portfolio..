@@ -1,0 +1,61 @@
+.nav {
+    width: 100vw;
+    height: 4%;
+    background: #1f2428;
+    font-size: 14px;
+    border-bottom: 1px solid #191d20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------ logo and toolbar -------- */
+
+.navItems {
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+.navItems > * {
+    cursor: pointer;
+}
+.logo {
+    width: 1.2rem;
+}
+
+@media (max-width: 950px) {
+    .navItems {
+        width: 1.5rem;
+    }
+    .navItems > :not(:first-child) {
+        display: none;
+    }
+}
+
+/* ----- header ------------ */
+
+.headerText {
+    padding-right: 13%;
+}
+
+/* ----- control buttons --------- */
+
+.controlButtons {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.controlButtons > span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.yellowbutton {
+    background: #f1fa8c;
+}
+.greenbutton {
+    background: #50fa7b;
+}
+.redbutton {
+    background: #f55;
+}
