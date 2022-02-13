@@ -1,0 +1,64 @@
+.footer {
+    height: 3%;
+    background: #3d3b3b;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    height: 17px;
+}
+
+/* ******* Left Side ******* */
+.left {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+.left a {
+    color: white;
+    text-decoration: none;
+}
+
+.left a:hover {
+    background: #43a6e0;
+}
+
+.left > div,
+.left > div > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left > div > *,
+.left > div > a > * {
+    padding: 0 2px;
+}
+
+
+/* ******* Right side ******* */
+.right {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
+
+.right > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right > div > * {
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 500px) {
+    .right > div{
+        display: none;
+    }
+    .right > div:nth-child(3){
+        display: block;
+    }
+}
