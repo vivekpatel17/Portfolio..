@@ -11,23 +11,23 @@
 
 /* ------ logo and toolbar -------- */
 
-.navItems {
+.nav__navItems {
     width: 25vw;
     display: flex;
     justify-content: space-around;
 }
-.navItems > * {
+.nav__navItems > * {
     cursor: pointer;
 }
-.logo {
+.navItems__logo {
     width: 1.2rem;
 }
 
 @media (max-width: 950px) {
-    .navItems {
+    .nav__navItems {
         width: 1.5rem;
     }
-    .navItems > :not(:first-child) {
+    .nav__navItems > :not(:first-child) {
         display: none;
     }
 }
@@ -35,29 +35,29 @@
 /* ----- header ------------ */
 
 @media (max-width: 450px){
-    .headerText{
+    .nav__headerText{
         font-size: 12px;
     }
 }
 
 /* ----- control buttons --------- */
 
-.controlButtons {
+.nav__ctrlbtn {
     width: 5rem;
     display: flex;
     justify-content: space-around;
 }
-.controlButtons > span {
+.nav__ctrlbtn > span {
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
-.yellowbutton {
+.ctrlbtn__yellowbutton {
     background: #f1fa8c;
 }
-.greenbutton {
+.ctrlbtn__greenbutton {
     background: #50fa7b;
 }
-.redbutton {
+.ctrlbtn__redbutton {
     background: #f55;
 }

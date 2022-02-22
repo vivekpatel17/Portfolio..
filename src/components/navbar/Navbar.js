@@ -1,4 +1,4 @@
-import classes from "./Navbar.module.css";
+import "./Navbar.css";
 import logo from "../../images/vscode_icon.svg";
 
 function Navbar(props) {
@@ -6,10 +6,10 @@ function Navbar(props) {
 
     return (
         <>
-            <div className={classes.nav}>
-                <div className={classes.navItems}>
+            <div className="nav">
+                <div className="nav__navItems">
                     <img
-                        className={classes.logo}
+                        className="navItems__logo"
                         src={logo}
                         alt="vscode logo"
                     />
@@ -18,14 +18,14 @@ function Navbar(props) {
                     ))}
                 </div>
 
-                <div className={classes.headerText}>
+                <div className="nav__headerText">
                     Vivek Kumar Patel - Visual Studio Code
                 </div>
 
-                <div className={classes.controlButtons}>
-                    <span className={classes.yellowbutton}></span>
-                    <span className={classes.redbutton}></span>
-                    <span className={classes.greenbutton}></span>
+                <div className="nav__ctrlbtn">
+                    <span className="ctrlbtn__yellow"></span>
+                    <span className="ctrlbtn__yellow"></span>
+                    <span className="ctrlbtn__yellow"></span>
                 </div>
             </div>
         </>
