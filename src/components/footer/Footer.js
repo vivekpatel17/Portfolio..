@@ -1,9 +1,9 @@
-import classes from "./Footer.module.css";
+import "./Footer.css";
 
 function Footer() {
     return (
-        <div className={classes.footer}>
-            <div className={classes.left}>
+        <div className="footer">
+            <div className="footer__left">
                 <div>
                     <a
                         href="https://github.com/vivekpatel17/portfolio"
@@ -32,7 +32,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className={classes.right}>
+            <div className="footer__right">
                 <div>
                     <span>UTF-8</span>
                 </div>
