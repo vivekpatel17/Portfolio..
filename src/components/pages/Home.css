@@ -35,7 +35,7 @@
     font-weight: 300;
 }
 
-.foreground__foreground__btnter h1 {
+.foreground__typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid #f9826c; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -86,5 +86,14 @@
 @media screen and (max-width: 1180px) {
     .homepage__foreground {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .foreground__intro{
+        font-size: 2.5rem;
+    }
+    .foreground__typewriter{
+        font-size: 1rem;
     }
 }

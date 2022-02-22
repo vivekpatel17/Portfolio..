@@ -18,12 +18,8 @@ function Home() {
                     </div>
 
                     <div className="foreground__btn">
-                        <button onClick={() => naviagte("project")}>
-                            View Work
-                        </button>
-                        <button onClick={() => naviagte("contact")}>
-                            Contact Me
-                        </button>
+                        <button onClick={() => naviagte("project")}>View Work</button>
+            <button onClick={() => naviagte("contact")}>Contact Me</button>
                     </div>
                 </div>
             </div>
