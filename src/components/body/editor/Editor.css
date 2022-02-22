@@ -1,0 +1,37 @@
+.editor {
+    background: #24292e;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor__header {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 2.35rem;
+    flex: 0 0 7%;
+    box-sizing: border-box;
+    background: #1f2428;
+    display: flex;
+    align-items: center;
+}
+
+.editor__files {
+    flex-grow: 1;
+    font-family: JetBrains Mono, monospace;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.editor__files::-webkit-scrollbar {
+    width: 14px;
+}
+
+.editor__files::-webkit-scrollbar-track {
+    border-left: 0.5px solid #1b1f23;
+    background: #24292e;
+}
+
+.editor__files::-webkit-scrollbar-thumb {
+    border-left: 0.5px solid #1b1f23;
+    background: #333536;
+}

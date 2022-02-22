@@ -12,7 +12,7 @@
     flex: 1 1 10rem;
 }
 
-.textArea {
+.editor {
     width: 200px;
     flex: 20 20 600px;
 }
