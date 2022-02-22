@@ -24,8 +24,8 @@ function Navbar(props) {
 
                 <div className="nav__ctrlbtn">
                     <span className="ctrlbtn__yellow"></span>
-                    <span className="ctrlbtn__yellow"></span>
-                    <span className="ctrlbtn__yellow"></span>
+                    <span className="ctrlbtn__red"></span>
+                    <span className="ctrlbtn__green"></span>
                 </div>
             </div>
         </>

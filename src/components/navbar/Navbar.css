@@ -52,12 +52,12 @@
     height: 15px;
     border-radius: 50%;
 }
-.ctrlbtn__yellowbutton {
+.ctrlbtn__yellow {
     background: #f1fa8c;
 }
-.ctrlbtn__greenbutton {
+.ctrlbtn__green {
     background: #50fa7b;
 }
-.ctrlbtn__redbutton {
+.ctrlbtn__red {
     background: #f55;
 }
