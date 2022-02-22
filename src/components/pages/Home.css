@@ -29,13 +29,13 @@
     font-weight: 500;
 }
 
-.foreground__foreground__btnter > h1 {
+.foreground__typewriter > h1 {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
-.foreground__foreground__btnter h1 {
+.foreground__typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid #f9826c; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
