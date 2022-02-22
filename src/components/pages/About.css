@@ -1,0 +1,36 @@
+.aboutPage {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.aboutPage > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.9;
+    transition: 0.3s ease-in-out;
+}
+
+.aboutPage > img:hover {
+    box-shadow: 3px 3px 7px rgb(130, 2, 204);
+    opacity: 1;
+}
+
+.aboutpage__abouttext {
+    width: 60vw;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.aboutpage__abouttext > span{
+    color: #f9826c;
+    text-decoration: none;
+}
+
+.aboutpage__abouttext > span:hover {
+    text-decoration: underline;
+    text-decoration-color: #f9826c;
+}

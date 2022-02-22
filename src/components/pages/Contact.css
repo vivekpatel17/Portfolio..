@@ -1,0 +1,56 @@
+.contactpage {
+    box-sizing: border-box;
+    /* height: 530px; */ /* commented because of removing form*/
+    font-family: JetBrains Mono, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactpage > div {
+    flex: 1 1 300px;
+}
+
+/* ------- socials css --------- */
+
+.contactpage__social {
+    margin-right: 2rem;
+    counter-reset: line;
+}
+
+.contactpage > div > div:first-child {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contactpage__social > div > div::before {
+    margin-right: 1rem;
+    content: counter(line);
+    counter-increment: line;
+    color: grey;
+}
+
+.contactpage__social > div:last-child {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.contactpage__social span,
+.contactpage__social a {
+    color: #f9826c;
+    text-decoration: none;
+}
+
+.contactpage__social a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+    .contactpage {
+        flex-direction: column;
+    }
+
+    .contactpage__social {
+        border: none;
+    }
+}
