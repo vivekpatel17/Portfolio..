@@ -1,0 +1,48 @@
+.fileExplorer {
+    background: #1f2428;
+    border-right: 1px solid #191d20;
+}
+
+.fileExplorer__head {
+    padding: 0.625rem 0 1rem 1rem;
+    font-size: 0.9rem;
+}
+
+.fileExplorer__workspace {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.fileExplorer__fileItems {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .fileExplorer {
+        display: none;
+    }
+}
+
+.fileItem {
+    padding: 0.2rem 1rem;
+    font-size: 0.875rem;
+    display: flex;
+}
+
+.fileItem:hover {
+    background: #24292e;
+}
+.fileItem img {
+    display: inline;
+    width: 1.125rem;
+}
+
+.fileItem > div {
+    display: inline;
+    padding-left: 5px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
