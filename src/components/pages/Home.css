@@ -35,7 +35,7 @@
     font-weight: 300;
 }
 
-.foreground__typewriter h1 {
+.foreground__foreground__btnter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid #f9826c; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
